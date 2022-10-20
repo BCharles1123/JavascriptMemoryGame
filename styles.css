@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #212529;
+}
+
+#grid {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    border: blueviolet solid 10px;
+    border-radius: 5px;
+    padding: 50px;
+    background-color: white;
+    filter:drop-shadow(1px 1px 10px blueviolet)
+}
+
+
+h1, h3 {
+    padding: 20px;
+    border: solid 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    border-color: deeppink;
+    color: deeppink;
+    filter:drop-shadow(1px 1px 10px deeppink);
+    margin-bottom: 5px;
+}
+
+h3 {
+    border-color: greenyellow;
+    color: greenyellow;
+    filter:drop-shadow(1px 1px 10px greenyellow)
+}
